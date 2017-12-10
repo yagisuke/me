@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatstrap',
-    description: 'Gatsby starter for bootstrap a blog',
+    title: 'YAGISUKE',
+    description: 'from YAGISUKE',
     siteUrl: 'https://gatstrap.netlify.com',
-    author: 'jaxx2104',
-    twitter: 'jaxx2104',
+    author: 'YAGISUKE',
+    twitter: 'yagi_suke',
   },
   pathPrefix: '/',
   plugins: [
@@ -50,13 +50,13 @@ module.exports = {
         display: 'minimal-ui',
         icons: [
           {
-            src: '/img/android-chrome-192x192.png',
-            sizes: '192x192',
+            src: '/img/android-chrome-120x120.png',
+            sizes: '120x120',
             type: 'image/png',
           },
           {
-            src: '/img/android-chrome-512x512.png',
-            sizes: '512x512',
+            src: '/img/android-chrome-152x152.png',
+            sizes: '152x152',
             type: 'image/png',
           },
         ],

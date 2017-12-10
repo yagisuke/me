@@ -29,11 +29,12 @@ $yellow: #ffab00 !default;
 $green: #8bc34a !default;
 $teal: #009688 !default;
 $cyan: #00bcd4 !default;
+$strongBlue: #038ecd !default;
 
 // Reassign color vars to semantic color scheme
 $theme-colors: (
-    primary: $purple,
-    secondary: $gray-600,
+    primary: $strongBlue,
+    secondary: $gray-400,
     success: $green,
     info: $cyan,
     warning: $yellow,

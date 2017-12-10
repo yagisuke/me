@@ -10,20 +10,20 @@ class Profile extends React.Component {
           <div className="container">
             <img
               src={pathPrefix + '/img/profile.jpg'}
-              alt="jaxx2104"
+              alt="yagi_suke"
               className="rounded-circle mx-auto d-block"
               width="120px"
             />
-            <h1>jaxx2104</h1>
-            <p className="lead text-muted">コーラとバグが好き</p>
+            <h1>yagi_suke</h1>
+            <p className="lead text-muted">週末は登山かプログラミングか</p>
             <div>
               <a
                 ref="twButton"
-                href="https://twitter.com/jaxx2104"
+                href="https://twitter.com/yagi_suke"
                 className="twitter-follow-button"
                 data-show-count="false"
               >
-                Follow @jaxx2104
+                Follow @yagi_suke
               </a>
             </div>
           </div>
