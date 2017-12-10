@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'YAGISUKE',
     description: 'from YAGISUKE',
-    siteUrl: 'https://gatstrap.netlify.com',
+    siteUrl: 'http://yagisuke.me',
     author: 'YAGISUKE',
     twitter: 'yagi_suke',
   },

@@ -22,7 +22,7 @@ class BlogPostTemplate extends React.Component {
       template = <SitePage {...this.props} />
     }
     return (
-      <div>
+      <div className='mb-5'>
         <Helmet
           title={`${title} | ${siteTitle}`}
           meta={[
