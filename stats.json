@@ -1,0 +1,62 @@
+{
+  "assetsByChunkName": {
+    "path---my-second-post": [
+      "path---my-second-post-20a7b0f3a150f5980cff.js",
+      "path---my-second-post-20a7b0f3a150f5980cff.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-be122b34a46e44d28e92.js",
+      "component---src-pages-index-js-be122b34a46e44d28e92.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---profile": [
+      "path---profile-a0e39f21c11f6a62c5ab.js",
+      "path---profile-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-7a5cd1e996a28eb317de.js",
+      "component---src-templates-blog-post-js-7a5cd1e996a28eb317de.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-57cbdebb993d9a783053.js",
+      "component---src-layouts-index-js-57cbdebb993d9a783053.js.map"
+    ],
+    "path---hi-folks": [
+      "path---hi-folks-c06431f4637bb4c399bb.js",
+      "path---hi-folks-c06431f4637bb4c399bb.js.map"
+    ],
+    "path---index": [
+      "path---index-de7a27676440bbd7b316.js",
+      "path---index-de7a27676440bbd7b316.js.map"
+    ],
+    "path---hello-world": [
+      "path---hello-world-597dcec69d1f25acccc4.js",
+      "path---hello-world-597dcec69d1f25acccc4.js.map"
+    ],
+    "commons": [
+      "commons-d6b8111fdf23bc89f5f5.js",
+      "commons-d6b8111fdf23bc89f5f5.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-66b7ea375d96f7618cb5.js",
+      "build-js-styles.css",
+      "app-66b7ea375d96f7618cb5.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-profile-index-jsx": [
+      "component---src-pages-profile-index-jsx-66d02f818aa96d23d561.js",
+      "component---src-pages-profile-index-jsx-66d02f818aa96d23d561.js.map"
+    ]
+  }
+}
