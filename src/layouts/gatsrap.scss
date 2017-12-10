@@ -140,3 +140,8 @@ img {
 img:hover {
   animation: pulse 0.5s;
 }
+
+@import '../components/Footer/style.scss';
+@import '../components/ReadNext/style.scss';
+@import '../components/SitePage/style.scss';
+@import '../components/SitePost/style.scss';

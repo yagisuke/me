@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { siteMetadata } from '../../gatsby-config'
 import SiteNavi from '../components/SiteNavi'
+import Footer from '../components/Footer'
 import emergence from 'emergence.js'
 
 import './gatsrap.scss'
@@ -20,10 +21,12 @@ class Template extends React.Component {
 
   render() {
     const { location, children } = this.props
+
     return (
       <div>
         <SiteNavi title={siteMetadata.title} {...this.props} />
-        {children()}
+        { children() }
+        <Footer />
       </div>
     )
   }
