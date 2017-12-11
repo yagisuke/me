@@ -2,15 +2,14 @@ import React from 'react'
 
 class Profile extends React.Component {
   render() {
-    const pathPrefix =
-      process.env.NODE_ENV === 'development' ? '' : __PATH_PREFIX__
+    const pathPrefix = process.env.NODE_ENV === 'development' ? '' : __PATH_PREFIX__
+
     return (
       <div>
         <section className="text-center">
           <div className="container">
             <img
               src={pathPrefix + '/img/profile.jpg'}
-              alt="yagi_suke"
               className="rounded-circle mx-auto d-block"
               width="120px"
             />
@@ -22,7 +21,7 @@ class Profile extends React.Component {
                 href="https://twitter.com/yagi_suke"
                 className="twitter-follow-button"
                 data-show-count="false"
-              >
+                >
                 Follow @yagi_suke
               </a>
             </div>
@@ -33,7 +32,7 @@ class Profile extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <h2 className="section-heading">SKIL</h2>
+                <h2 className="section-heading">SKILL</h2>
                 <hr className="border-white" />
               </div>
             </div>
@@ -45,9 +44,9 @@ class Profile extends React.Component {
                   className="service-box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="HTML"
-                >
-                  <i className="devicon-html5-plain " data-emergence="hidden" />
+                  title="Java"
+                  >
+                  <i className="devicon-java-plain-wordmark" data-emergence="hidden" />
                 </div>
               </div>
               <div className="col-lg-3 col-6">
@@ -55,12 +54,9 @@ class Profile extends React.Component {
                   className="service-box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="JavaScript"
-                >
-                  <i
-                    className="devicon-javascript-plain"
-                    data-emergence="hidden"
-                  />
+                  title="MySQL"
+                  >
+                  <i className="devicon-mysql-plain-wordmark" data-emergence="hidden" />
                 </div>
               </div>
               <div className="col-lg-3 col-6">
@@ -68,12 +64,9 @@ class Profile extends React.Component {
                   className="service-box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="React.js"
-                >
-                  <i
-                    className="devicon-react-original"
-                    data-emergence="hidden"
-                  />
+                  title="AWS"
+                  >
+                  <i className="devicon-amazonwebservices-plain-wordmark" data-emergence="hidden" />
                 </div>
               </div>
               <div className="col-lg-3 col-6">
@@ -81,9 +74,9 @@ class Profile extends React.Component {
                   className="service-box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="Vue.js"
-                >
-                  <i className="devicon-vuejs-plain" data-emergence="hidden" />
+                  title="HTML5"
+                  >
+                  <i className="devicon-html5-plain-wordmark" data-emergence="hidden" />
                 </div>
               </div>
             </div>
@@ -93,12 +86,9 @@ class Profile extends React.Component {
                   className="service-box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="Node.js"
-                >
-                  <i
-                    className="devicon-nodejs-plain-wordmark"
-                    data-emergence="hidden"
-                  />
+                  title="CSS3"
+                  >
+                  <i className="devicon-css3-plain-wordmark" data-emergence="hidden" />
                 </div>
               </div>
               <div className="col-lg-3 col-6 ">
@@ -106,9 +96,9 @@ class Profile extends React.Component {
                   className="service-box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="PHP"
-                >
-                  <i className="devicon-php-plain" data-emergence="hidden" />
+                  title="JavaScript"
+                  >
+                  <i className="devicon-javascript-plain" data-emergence="hidden" />
                 </div>
               </div>
               <div className="col-lg-3 col-6 ">
@@ -116,12 +106,9 @@ class Profile extends React.Component {
                   className="service-box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="Swift"
-                >
-                  <i
-                    className="devicon-swift-plain-wordmark"
-                    data-emergence="hidden"
-                  />
+                  title="React"
+                  >
+                  <i className="devicon-react-original-wordmark" data-emergence="hidden" />
                 </div>
               </div>
               <div className="col-lg-3 col-6 ">
@@ -129,12 +116,9 @@ class Profile extends React.Component {
                   className="service-box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="AWS"
-                >
-                  <i
-                    className="devicon-amazonwebservices-plain-wordmark"
-                    data-emergence="hidden"
-                  />
+                  title="jQuery"
+                  >
+                  <i className="devicon-jquery-plain-wordmark" data-emergence="hidden" />
                 </div>
               </div>
             </div>
