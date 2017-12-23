@@ -13,7 +13,7 @@ class ReadNext extends React.Component {
         <hr className="border-primary" />
         <p>
           {title}
-          <Link to="/profile/">
+          <Link to="/">
             <br />
             <strong>{author}</strong> on Profile
           </Link>
