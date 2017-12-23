@@ -27,7 +27,6 @@ class Profile extends React.Component {
             </div>
           </div>
         </section>
-
         <section id="features" className="bg-primary text-white text-center">
           <div className="container">
             <div className="row">
@@ -124,7 +123,6 @@ class Profile extends React.Component {
             </div>
           </div>
         </section>
-
         <section id="features" className="text-center">
           <div className="container">
             <div className="row">
@@ -146,11 +144,10 @@ class Profile extends React.Component {
             </div>
           </div>
         </section>
-
         <section
           className="bg-primary text-white text-center color-inverse"
           id="concept"
-        >
+          >
           <div className="container">
             <div className="row">
               <div className="col-lg-12">

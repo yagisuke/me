@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 class SiteNavi extends React.Component {
   render() {
     const { location, title } = this.props
+
     return (
       <nav className="navbar navbar-expand navbar-dark flex-column flex-md-row bg-primary">
         <div className="container">
@@ -16,21 +17,15 @@ class SiteNavi extends React.Component {
                 className={
                   location.pathname === '/' ? 'nav-item active' : 'nav-item'
                 }
-              >
-                <Link to="/" className="nav-link">
-                  Home
-                </Link>
+                >
+                <Link to="/" className="nav-link">Home</Link>
               </li>
               <li
                 className={
-                  location.pathname === '/profile/'
-                    ? 'nav-item active'
-                    : 'nav-item'
+                  location.pathname === '/works/' ? 'nav-item active' : 'nav-item'
                 }
-              >
-                <Link to="/profile/" className="nav-link">
-                  Profile
-                </Link>
+                >
+                <Link to="/works/" className="nav-link">Works</Link>
               </li>
             </ul>
           </div>
