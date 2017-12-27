@@ -1,13 +1,13 @@
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
-import React from 'react'
+import React, { Component } from 'react'
 import striptags from 'striptags'
 
 import SitePost from '../components/SitePost'
 import SitePage from '../components/SitePage'
 
-class BlogPostTemplate extends React.Component {
+export default class BlogPostTemplate extends Component {
   render() {
     const post = get(this, 'props.data.post')
     const site = get(this, 'props.data.site')
@@ -45,8 +45,6 @@ class BlogPostTemplate extends React.Component {
     )
   }
 }
-
-export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {

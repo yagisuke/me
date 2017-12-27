@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { Component } from 'react'
 import moment from 'moment'
 import Link from 'gatsby-link'
 
-class Footer extends React.Component {
+export default class Footer extends Component {
   render() {
     const { location, title } = this.props
 
@@ -24,5 +24,3 @@ class Footer extends React.Component {
     )
   }
 }
-
-export default Footer

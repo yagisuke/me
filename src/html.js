@@ -28,17 +28,10 @@ export default class HTML extends React.Component {
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           {this.props.headComponents}
           {css}
-          <link
-            href="/img/apple-touch-icon.png"
-            rel="apple-touch-icon"
-            sizes="180x180"
-          />
+          <link href="/img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
           <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
         </head>
         <body>

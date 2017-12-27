@@ -1,10 +1,8 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-class SitePage extends React.Component {
+export default class SitePage extends Component {
   render() {
     const post = this.props.data.post
     return <div dangerouslySetInnerHTML={{ __html: post.html }} />
   }
 }
-
-export default SitePage

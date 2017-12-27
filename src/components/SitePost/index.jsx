@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import size from 'lodash/size'
 import ReadNext from '../ReadNext'
 
-class SitePost extends React.Component {
+export default class SitePost extends Component {
   more(isMore, path) {
     if (isMore) {
       return (
@@ -81,5 +81,3 @@ class SitePost extends React.Component {
     )
   }
 }
-
-export default SitePost
