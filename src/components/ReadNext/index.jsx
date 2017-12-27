@@ -1,15 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 
-class ReadNext extends React.Component {
+export default class ReadNext extends Component {
   render() {
     const data = this.props.data
     const title = get(data, 'meta.title')
     const author = get(data, 'meta.author')
 
     return (
-      <div className="readNext">
+      <div>
         <hr className="border-primary" />
         <p>
           {title}
@@ -22,5 +22,3 @@ class ReadNext extends React.Component {
     )
   }
 }
-
-export default ReadNext

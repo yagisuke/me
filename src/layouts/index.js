@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import { siteMetadata } from '../../gatsby-config'
 import SiteNavi from '../components/SiteNavi'
@@ -10,7 +10,7 @@ import 'animate.css/animate.css'
 import 'prismjs/themes/prism-okaidia.css'
 import 'devicon/devicon.min.css'
 
-class Template extends React.Component {
+export default class Template extends Component {
   componentDidMount() {
     emergence.init()
   }
@@ -31,5 +31,3 @@ class Template extends React.Component {
     )
   }
 }
-
-export default Template
