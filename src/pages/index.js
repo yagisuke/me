@@ -8,7 +8,7 @@ export default class Profile extends Component {
 
     return (
       <div>
-        <section className="text-center">
+        <section id="profile" className="text-center">
           <div className="container">
             <img
               src={`${pathPrefix}/img/profile.jpg`}
@@ -44,15 +44,15 @@ export default class Profile extends Component {
             <div className="row justify-content-md-center">
               <div className="col-lg-8">
                 <p className="text-center">
-                  学生時代のバイトでWEBエンジニアになりました。<br />
-                  主にフロントエンドを仕事にしていますが、バックエンドの開発もやってます。
-                  趣味はNode.jsを使ったIoTとアプリの開発です。
+                  フロントエンドとバックエンドを隔てなく開発してきました。
+                  最近では、マネジメント業務もおこない、フロントエンドの高品質化に注力しています。
+                  今後はシステム作りの立場に立って、事業作りをしたいと考えています。
                 </p>
               </div>
             </div>
           </div>
         </section>
-        <section id="concept" className="text-center color-inverse">
+        <section id="works" className="text-center color-inverse">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -79,7 +79,7 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to={'/'} className="btn btn-primary">
+                    <Link to='/jalan-business-support/' className="btn btn-primary">
                       View details
                     </Link>
                   </div>
@@ -101,7 +101,7 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to={'/'} className="btn btn-primary">
+                    <Link to='/careertrek/' className="btn btn-primary">
                       View details
                     </Link>
                   </div>
@@ -123,7 +123,7 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to={'/'} className="btn btn-primary">
+                    <Link to='/hotpepper-beauty/' className="btn btn-primary">
                       View details
                     </Link>
                   </div>
@@ -145,7 +145,7 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to={'/'} className="btn btn-primary">
+                    <Link to='/zexy/' className="btn btn-primary">
                       View details
                     </Link>
                   </div>
@@ -167,7 +167,7 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to={'/'} className="btn btn-primary">
+                    <Link to='/regionup/' className="btn btn-primary">
                       View details
                     </Link>
                   </div>
@@ -176,7 +176,7 @@ export default class Profile extends Component {
             </div>
           </div>
         </section>
-        <section id="features" className="bg-primary text-white text-center">
+        <section id="skills" className="bg-primary text-white text-center">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
