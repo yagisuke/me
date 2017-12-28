@@ -9,7 +9,7 @@ export default class SitePost extends Component {
     if (isMore) {
       return (
         <Link className="readmore" to={path}>
-          <span className="btn btn-outline-primary btn-block">MORE</span>
+          <span className="btn btn-outline-primary btn-block">もっと見る</span>
         </Link>
       )
     }

@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 
+import { Route, Switch, Redirect } from 'react-router'
+
 export default class ReadNext extends Component {
   render() {
     const data = this.props.data
@@ -11,13 +13,12 @@ export default class ReadNext extends Component {
     return (
       <div>
         <hr className="border-primary" />
-        <p>
-          {title}
-          <br />
-          <Link to="/">
-            <strong>{author}</strong> on Profile
-          </Link>
-        </p>
+        <a
+          href="javascript:history.back();"
+          className="mt-3 btn btn-outline-primary btn-block"
+        >
+          戻る
+        </a>
       </div>
     )
   }

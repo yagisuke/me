@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'YAGISUKE',
     description: 'from YAGISUKE',
-    siteUrl: 'http://yagisuke.me',
+    siteUrl: 'http://www.yagisuke.me',
     author: 'YAGISUKE',
     twitter: 'yagi_suke',
   },

@@ -81,9 +81,9 @@ export default class Profile extends Component {
                     </p>
                     <Link
                       to="/jalan-business-support/"
-                      className="btn btn-primary"
+                      className="btn btn-outline-primary btn-block"
                     >
-                      View details
+                      もっと見る
                     </Link>
                   </div>
                 </div>
@@ -104,8 +104,11 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to="/careertrek/" className="btn btn-primary">
-                      View details
+                    <Link
+                      to="/careertrek/"
+                      className="btn btn-outline-primary btn-block"
+                    >
+                      もっと見る
                     </Link>
                   </div>
                 </div>
@@ -126,8 +129,11 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to="/hotpepper-beauty/" className="btn btn-primary">
-                      View details
+                    <Link
+                      to="/hotpepper-beauty/"
+                      className="btn btn-outline-primary btn-block"
+                    >
+                      もっと見る
                     </Link>
                   </div>
                 </div>
@@ -148,8 +154,11 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to="/zexy/" className="btn btn-primary">
-                      View details
+                    <Link
+                      to="/zexy/"
+                      className="btn btn-outline-primary btn-block"
+                    >
+                      もっと見る
                     </Link>
                   </div>
                 </div>
@@ -170,8 +179,11 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to="/regionup/" className="btn btn-primary">
-                      View details
+                    <Link
+                      to="/regionup/"
+                      className="btn btn-outline-primary btn-block"
+                    >
+                      もっと見る
                     </Link>
                   </div>
                 </div>
