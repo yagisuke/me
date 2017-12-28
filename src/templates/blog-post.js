@@ -22,7 +22,7 @@ export default class BlogPostTemplate extends Component {
       template = <SitePage {...this.props} />
     }
     return (
-      <div className='mb-5'>
+      <div className="mb-5">
         <Helmet
           title={`${title} | ${siteTitle}`}
           meta={[

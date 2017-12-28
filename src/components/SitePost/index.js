@@ -28,9 +28,8 @@ export default class SitePost extends Component {
   }
 
   categories(data) {
-    if (!data) {
-      return
-    }
+    if (!data) return
+
     const categories = []
     data.forEach((category, i) => {
       categories.push(
@@ -63,7 +62,7 @@ export default class SitePost extends Component {
         <div className="articles col-md-12">
           <div className="article-wrap" key={path}>
             <div className="page-header">
-              <Link style={{ boxShadow: 'none' }} to={path}>
+              <Link to={path} style={{ boxShadow: 'none' }}>
                 <h1>{title}</h1>
                 <time dateTime={date}>{date}</time>
               </Link>
