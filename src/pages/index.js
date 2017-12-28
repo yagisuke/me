@@ -79,7 +79,10 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to='/jalan-business-support/' className="btn btn-primary">
+                    <Link
+                      to="/jalan-business-support/"
+                      className="btn btn-primary"
+                    >
                       View details
                     </Link>
                   </div>
@@ -101,7 +104,7 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to='/careertrek/' className="btn btn-primary">
+                    <Link to="/careertrek/" className="btn btn-primary">
                       View details
                     </Link>
                   </div>
@@ -123,7 +126,7 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to='/hotpepper-beauty/' className="btn btn-primary">
+                    <Link to="/hotpepper-beauty/" className="btn btn-primary">
                       View details
                     </Link>
                   </div>
@@ -145,7 +148,7 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to='/zexy/' className="btn btn-primary">
+                    <Link to="/zexy/" className="btn btn-primary">
                       View details
                     </Link>
                   </div>
@@ -167,7 +170,7 @@ export default class Profile extends Component {
                       hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
                       hoge hoge...
                     </p>
-                    <Link to='/regionup/' className="btn btn-primary">
+                    <Link to="/regionup/" className="btn btn-primary">
                       View details
                     </Link>
                   </div>
