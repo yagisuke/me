@@ -40,11 +40,7 @@ export default class Footer extends Component {
             </li>
           </ul>
           <p>
-            <small>
-              ©
-              {moment().format('YYYY')}
-              Yagisuke
-            </small>
+            <small>©{moment().format('YYYY')} Yagisuke</small>
           </p>
         </div>
       </footer>
