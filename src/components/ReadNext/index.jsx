@@ -13,8 +13,8 @@ export default class ReadNext extends Component {
         <hr className="border-primary" />
         <p>
           {title}
+          <br />
           <Link to="/">
-            <br />
             <strong>{author}</strong> on Profile
           </Link>
         </p>

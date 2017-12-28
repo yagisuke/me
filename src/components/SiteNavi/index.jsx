@@ -8,7 +8,7 @@ export default class SiteNavi extends Component {
     return (
       <nav className="navbar navbar-expand navbar-dark flex-column flex-md-row bg-primary">
         <div className="container">
-          <Link className="text-center" to="/">
+          <Link to="/" className="text-center">
             <h1 className="navbar-brand mb-0">{title}</h1>
           </Link>
           <div className="navbar-nav-scroll">
@@ -17,15 +17,21 @@ export default class SiteNavi extends Component {
                 className={
                   location.pathname === '/' ? 'nav-item active' : 'nav-item'
                 }
-                >
-                <Link to="/" className="nav-link">Home</Link>
+              >
+                <Link to="/" className="nav-link">
+                  Home
+                </Link>
               </li>
               <li
                 className={
-                  location.pathname === '/works/' ? 'nav-item active' : 'nav-item'
+                  location.pathname === '/works/'
+                    ? 'nav-item active'
+                    : 'nav-item'
                 }
-                >
-                <Link to="/works/" className="nav-link">Works</Link>
+              >
+                <Link to="/works/" className="nav-link">
+                  Works
+                </Link>
               </li>
             </ul>
           </div>

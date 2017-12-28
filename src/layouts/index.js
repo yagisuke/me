@@ -25,7 +25,7 @@ export default class Template extends Component {
     return (
       <div>
         <SiteNavi title={siteMetadata.title} {...this.props} />
-        { children() }
+        {children()}
         <Footer />
       </div>
     )
