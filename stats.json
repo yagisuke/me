@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-works-index-js": [
-      "component---src-pages-works-index-js-4d4c6a9e5c203962896e.js",
-      "component---src-pages-works-index-js-4d4c6a9e5c203962896e.js.map"
+      "component---src-pages-works-index-js-fe4f6ce1dd61eff9afe6.js",
+      "component---src-pages-works-index-js-fe4f6ce1dd61eff9afe6.js.map"
     ],
     "path---zexy": [
       "path---zexy-1f98b2163674d97740ea.js",
@@ -13,8 +13,8 @@
       "component---src-pages-index-js-31827e2dba04396b0a06.js.map"
     ],
     "path---jalan-business-support": [
-      "path---jalan-business-support-ed6419b848e0446d866f.js",
-      "path---jalan-business-support-ed6419b848e0446d866f.js.map"
+      "path---jalan-business-support-8e9d814b31160c878eb1.js",
+      "path---jalan-business-support-8e9d814b31160c878eb1.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -25,16 +25,16 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-f795544c8ae33d016b3b.js",
-      "component---src-templates-blog-post-js-f795544c8ae33d016b3b.js.map"
+      "component---src-templates-blog-post-js-17b6bbe4ce67751dede9.js",
+      "component---src-templates-blog-post-js-17b6bbe4ce67751dede9.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-8985bb07eec0944ddf79.js",
-      "component---src-layouts-index-js-8985bb07eec0944ddf79.js.map"
+      "component---src-layouts-index-js-a860f38531ba4348ef53.js",
+      "component---src-layouts-index-js-a860f38531ba4348ef53.js.map"
     ],
     "path---works": [
-      "path---works-f2aa90f76a1732668f51.js",
-      "path---works-f2aa90f76a1732668f51.js.map"
+      "path---works-037e2feb07b5cb27fe3a.js",
+      "path---works-037e2feb07b5cb27fe3a.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -49,17 +49,17 @@
       "path---hotpepper-beauty-9f900f1fb28a059dfcb5.js.map"
     ],
     "path---regionup": [
-      "path---regionup-e2f454fe9d041ccbb2ff.js",
-      "path---regionup-e2f454fe9d041ccbb2ff.js.map"
+      "path---regionup-eac57a49aa02b28b9c13.js",
+      "path---regionup-eac57a49aa02b28b9c13.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-887e60ddc2f0e62a387d.js",
+      "app-0f4b086b45d5112ee85e.js",
       "build-js-styles.css",
-      "app-887e60ddc2f0e62a387d.js.map",
+      "app-0f4b086b45d5112ee85e.js.map",
       "build-js-styles.css.map"
     ],
     "path---careertrek": [
