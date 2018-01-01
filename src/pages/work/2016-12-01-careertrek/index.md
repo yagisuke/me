@@ -3,6 +3,8 @@ title: キャリアトレック
 date: "2016-12-01T00:00:00.000Z"
 layout: post
 path: "/careertrek/"
+start: "2016-12-01"
+end: "2017-03-31"
 categories:
   - Java
   - MySQL

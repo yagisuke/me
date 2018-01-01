@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 
 export default class Footer extends Component {
   render() {
-    const { location, title } = this.props
+    const { author } = this.props
 
     return (
       <footer className="bd-footer text-muted">
@@ -40,7 +40,9 @@ export default class Footer extends Component {
             </li>
           </ul>
           <p>
-            <small>©{moment().format('YYYY')} Yagisuke</small>
+            <small>
+              ©{moment().format('YYYY')} {author}
+            </small>
           </p>
         </div>
       </footer>

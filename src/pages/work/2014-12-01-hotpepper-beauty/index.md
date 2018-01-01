@@ -3,6 +3,8 @@ title: ホットペッパービューティー
 date: "2014-12-01T00:00:00.000Z"
 layout: post
 path: "/hotpepper-beauty/"
+start: "2014-12-01"
+end: "2016-11-30"
 categories:
   - Java
   - Oracle

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import sortBy from 'lodash/sortBy'
@@ -7,7 +7,7 @@ import LazyLoad from 'react-lazyload'
 
 import SitePost from '../../components/SitePost'
 
-class BlogIndex extends React.Component {
+export default class BlogIndex extends Component {
   render() {
     const pageLinks = []
     const site = get(this, 'props.data.site.siteMetadata')
@@ -52,8 +52,6 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
-
 export const pageQuery = graphql`
   query IndexQuery {
     site {
@@ -73,6 +71,8 @@ export const pageQuery = graphql`
             layout
             title
             path
+            start
+            end
             categories
             description
             date(formatString: "YYYY/MM/DD")

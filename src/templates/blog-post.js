@@ -64,6 +64,8 @@ export const pageQuery = graphql`
         layout
         title
         path
+        start
+        end
         categories
         date(formatString: "YYYY/MM/DD")
       }

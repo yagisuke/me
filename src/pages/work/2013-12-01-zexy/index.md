@@ -3,6 +3,8 @@ title: "ゼクシィnet"
 date: "2013-12-01T00:00:00.000Z"
 layout: post
 path: "/zexy/"
+start: "2013-12-01"
+end: "2014-11-30"
 categories:
   - JavaScript
   - jQuery
