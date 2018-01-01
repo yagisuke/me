@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import size from 'lodash/size'
 import moment from 'moment'
-import ReadNext from '../ReadNext'
+import BackPage from '../BackPage'
 
 export default class SitePost extends Component {
   startEnd(start, end) {
@@ -42,8 +42,8 @@ export default class SitePost extends Component {
     return test
   }
 
-  more(isMore, path) {
-    if (!isMore) return
+  more(path) {
+    if (!path) return
 
     return (
       <Link to={path} className="readmore">
@@ -62,14 +62,13 @@ export default class SitePost extends Component {
       get(data, 'frontmatter.start'),
       get(data, 'frontmatter.end')
     )
-    const description = get(data, 'frontmatter.description')
-    const html = get(data, 'html')
     const cate =
       get(data, 'frontmatter.category') || get(data, 'frontmatter.categories')
     const categories = cate ? this.categories(cate) : ''
-    const footer = isIndex ? '' : <ReadNext data={site} />
-    const desc = isIndex ? description || this.description(html) : html
-    const more = isIndex ? this.more(!!desc, path) : ''
+    const html = get(data, 'html')
+    const content = isIndex ? this.description(html) : html
+    const more = isIndex ? this.more(path) : ''
+    const backPage = isIndex ? '' : <BackPage data={site} />
 
     return (
       <div className="container">
@@ -84,10 +83,10 @@ export default class SitePost extends Component {
             </div>
             <div
               className="page-content"
-              dangerouslySetInnerHTML={{ __html: desc }}
+              dangerouslySetInnerHTML={{ __html: content }}
             />
             {more}
-            {footer}
+            {backPage}
           </div>
         </div>
       </div>
