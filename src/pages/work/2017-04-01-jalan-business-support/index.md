@@ -13,6 +13,7 @@ categories:
 ---
 
 <img height="310" src="./Gutenberg.jpg" alt="Gutenberg">
+
 <figcaption>Johannes Gutenberg</figcaption>
 
 <!--more-->

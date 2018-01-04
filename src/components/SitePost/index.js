@@ -13,7 +13,7 @@ export default class SitePost extends Component {
     const endText = end ? moment(end).format('YYYY/MM/DD') : '現在'
 
     return (
-      <span className="startEnd">
+      <span className="period">
         {startText} 〜 {endText}
       </span>
     )
@@ -72,9 +72,9 @@ export default class SitePost extends Component {
 
     return (
       <div className="container">
-        <div className="articles col-md-12">
-          <div className="article-wrap" key={path}>
-            <div className="page-header">
+        <div className="article col-md-12">
+          <div className="article__wrap" key={path}>
+            <div className="article__header">
               <Link to={path} style={{ boxShadow: 'none' }}>
                 <h1>{title}</h1>
                 {startEnd}
@@ -82,7 +82,7 @@ export default class SitePost extends Component {
               {categories}
             </div>
             <div
-              className="page-content"
+              className="article__content"
               dangerouslySetInnerHTML={{ __html: content }}
             />
             {more}
