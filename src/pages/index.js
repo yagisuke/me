@@ -68,7 +68,7 @@ export default class Profile extends Component {
                   <div className="card-body">
                     <div className="c-works__top">
                       <img
-                        src={`${pathPrefix}/img/profile.jpg`}
+                        src={`${pathPrefix}/img/work/work-1.png`}
                         alt="RegionUP"
                         className="c-works__top__img"
                       />
@@ -93,8 +93,8 @@ export default class Profile extends Component {
                   <div className="card-body">
                     <div className="c-works__top">
                       <img
-                        src={`${pathPrefix}/img/profile.jpg`}
-                        alt="RegionUP"
+                        src={`${pathPrefix}/img/work/work-2.png`}
+                        alt="ゼクシィ"
                         className="c-works__top__img"
                       />
                     </div>
@@ -118,8 +118,8 @@ export default class Profile extends Component {
                   <div className="card-body">
                     <div className="c-works__top">
                       <img
-                        src={`${pathPrefix}/img/profile.jpg`}
-                        alt="RegionUP"
+                        src={`${pathPrefix}/img/work/work-3.png`}
+                        alt="HOT PEPPER Beauty"
                         className="c-works__top__img"
                       />
                     </div>
@@ -143,8 +143,8 @@ export default class Profile extends Component {
                   <div className="card-body">
                     <div className="c-works__top">
                       <img
-                        src={`${pathPrefix}/img/profile.jpg`}
-                        alt="RegionUP"
+                        src={`${pathPrefix}/img/work/work-4.png`}
+                        alt="careertrek"
                         className="c-works__top__img"
                       />
                     </div>
@@ -168,8 +168,8 @@ export default class Profile extends Component {
                   <div className="card-body">
                     <div className="c-works__top">
                       <img
-                        src={`${pathPrefix}/img/profile.jpg`}
-                        alt="RegionUP"
+                        src={`${pathPrefix}/img/work/work-5.png`}
+                        alt="じゃらん"
                         className="c-works__top__img"
                       />
                     </div>
