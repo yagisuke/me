@@ -12,13 +12,22 @@ categories:
   - CSS
 ---
 
-<img height="310" src="./Gutenberg.jpg" alt="Gutenberg">
-
-<figcaption>Johannes Gutenberg</figcaption>
+> <b>クライアント</b>: 株式会社リクルートライフスタイル<br />
+> <b>サービス</b>: 旅行業務支援サービス ※2018年春頃リリース予定<br />
+> <b>担当サービス</b>: 共通機能・トリップAIコンシェルジュ・レベニューアシスタントといった宿運営者向けサービス<br />
+> <b>サービス概要</b>:
+> 共通機能は、ログインや申し込みといった旅行業務支援サービスを利用する上で必要な機能を提供.
+> トリップAIコンシェルジュは、AIを活用した問い合わせ対応の自動化サービスを提供.
+> レベニューアシスタントは、需要を予測して適正な価格設定の支援をおこなう.<br /><br />
+> <b>役割</b>: <br />
+> フロントエンドエンジニア5名のリーダーとして、上記3サービスの要件定義や設計・実装をリード.
+> SPAでのシステム構成、CSS-in-JSや自動テストの導入など、クライアントにとっては新しい取り組みをおこなった.
 
 <!--more-->
 
-hoge
+<img height="310" src="./Gutenberg.jpg" alt="Gutenberg" />
+
+<figcaption>Johannes Gutenberg</figcaption>
 
 ## Printing Press
 
