@@ -73,14 +73,15 @@ export default class Profile extends Component {
                         className="c-works__top__img"
                       />
                     </div>
-                    <p className="c-works__text">
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge...
-                    </p>
+                    <div className="c-works__skills">
+                      <span class="badge badge-primary text-white">Java</span>
+                      <span class="badge badge-primary text-white">JavaScript</span>
+                      <span class="badge badge-primary text-white">jQuery</span>
+                      <span class="badge badge-primary text-white">HTML</span>
+                      <span class="badge badge-primary text-white">CSS</span>
+                    </div>
                     <Link
-                      to="/jalan-business-support/"
+                      to="/regionup/"
                       className="btn btn-outline-primary btn-block"
                     >
                       もっと見る
@@ -98,14 +99,14 @@ export default class Profile extends Component {
                         className="c-works__top__img"
                       />
                     </div>
-                    <p className="c-works__text">
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge...
-                    </p>
+                    <div className="c-works__skills">
+                      <span class="badge badge-primary text-white">JavaScript</span>
+                      <span class="badge badge-primary text-white">jQuery</span>
+                      <span class="badge badge-primary text-white">HTML</span>
+                      <span class="badge badge-primary text-white">CSS</span>
+                    </div>
                     <Link
-                      to="/careertrek/"
+                      to="/zexy/"
                       className="btn btn-outline-primary btn-block"
                     >
                       もっと見る
@@ -123,12 +124,10 @@ export default class Profile extends Component {
                         className="c-works__top__img"
                       />
                     </div>
-                    <p className="c-works__text">
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge...
-                    </p>
+                    <div className="c-works__skills">
+                      <span class="badge badge-primary text-white">Java</span>
+                      <span class="badge badge-primary text-white">Oracle</span>
+                    </div>
                     <Link
                       to="/hotpepper-beauty/"
                       className="btn btn-outline-primary btn-block"
@@ -148,14 +147,12 @@ export default class Profile extends Component {
                         className="c-works__top__img"
                       />
                     </div>
-                    <p className="c-works__text">
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge...
-                    </p>
+                    <div className="c-works__skills">
+                      <span class="badge badge-primary text-white">Java</span>
+                      <span class="badge badge-primary text-white">MySQL</span>
+                    </div>
                     <Link
-                      to="/zexy/"
+                      to="/careertrek/"
                       className="btn btn-outline-primary btn-block"
                     >
                       もっと見る
@@ -173,14 +170,14 @@ export default class Profile extends Component {
                         className="c-works__top__img"
                       />
                     </div>
-                    <p className="c-works__text">
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge...
-                    </p>
+                    <div className="c-works__skills">
+                      <span class="badge badge-primary text-white">JavaScript</span>
+                      <span class="badge badge-primary text-white">React/Redux</span>
+                      <span class="badge badge-primary text-white">HTML</span>
+                      <span class="badge badge-primary text-white">CSS</span>
+                    </div>
                     <Link
-                      to="/regionup/"
+                      to="/jalan-business-support/"
                       className="btn btn-outline-primary btn-block"
                     >
                       もっと見る
@@ -233,10 +230,10 @@ export default class Profile extends Component {
                   className="c-skills__box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="AWS"
+                  title="ORACLE"
                 >
                   <i
-                    className="devicon-amazonwebservices-plain-wordmark c-skills__img"
+                    className="devicon-oracle-original c-skills__img"
                     data-emergence="hidden"
                   />
                 </div>
