@@ -16,82 +16,18 @@ categories:
 > <b>サービス</b>: 旅行業務支援サービス ※2018年春頃リリース予定<br />
 > <b>担当サービス</b>: 共通機能・トリップAIコンシェルジュ・レベニューアシスタントといった宿運営者向けサービス<br />
 > <b>サービス概要</b>:
-> 共通機能は、ログインや申し込みといった旅行業務支援サービスを利用する上で必要な機能を提供.
+> 共通機能は、ログインや申し込み機能といった旅行業務支援サービスの共通機能を提供.
 > トリップAIコンシェルジュは、AIを活用した問い合わせ対応の自動化サービスを提供.
-> レベニューアシスタントは、需要を予測して適正な価格設定の支援をおこなう.<br /><br />
-> <b>役割</b>: <br />
-> フロントエンドエンジニア5名のリーダーとして、上記3サービスの要件定義や設計・実装をリード.
-> SPAでのシステム構成、CSS-in-JSや自動テストの導入など、クライアントにとっては新しい取り組みをおこなった.
+> レベニューアシスタントは、需要を予測して宿泊料金設定の支援をおこなう.
 
 <!--more-->
 
-<img height="310" src="./Gutenberg.jpg" alt="Gutenberg" />
+## さまざまなスキルセットの人が JOIN できて挑戦できる場に
+フロントエンドエンジニア5名のリーダーとして、上記3サービスの要件定義や設計・実装をリード.
+SPAでのシステム構成、CSS-in-JSや自動テストの導入など、クライアントにとっては新しい取り組みをおこなった.
 
-<figcaption>Johannes Gutenberg</figcaption>
+## 共通機能
 
-## Printing Press
+## トリップAIコンシェルジュ
 
-hoge “like a ray of light”.
-
-<img style="height: 310px;" src="./Printing-press.png" alt="Early Printing Press">
-<figcaption>Early wooden printing press as depicted in 1568.</figcaption>
-
-
-hoge
-
->All that has been written to me about that marvelous man seen at Frankfurt is true. I have not seen complete Bibles but only a number of quires of various books of the Bible. The script was very neat and legible, not at all difficult to follow—your grace would be able to read it without effort, and indeed without glasses.
-
-—Future pope Pius II in a letter to Cardinal Carvajal, March 1455
-
-hoge
-
-## Later Life
-
-hoge
-
-***
-
-hoge
-
-## Printing Method With Movable Type
-
-hoge
-
-![Movable metal type, and composing stick, descended from Gutenberg's press. Photo by Willi Heidelbach. Licensed under CC BY 2.5](./movable-type.jpg)
-
-*Movable metal type, and composing stick, descended from Gutenberg's press. Photo by Willi Heidelbach. Licensed under CC BY 2.5*
-
-hoge
-
-<figure>
-	<blockquote>
-		<p>It is a press, certainly, but a press from which shall flow in inexhaustible streams… Through it, god will spread his word.</p>
-		<footer>
-			<cite>—Johannes Gutenberg</cite>
-		</footer>
-	</blockquote>
-</figure>
-
-
-```js
-// javascript
-console.log("Hello World!!")
-```
-
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-* this one
-* that one
-* the other one
-
-*Italic*
-
-**bold**
-
-`monospace`
-
-[Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg)
+## レベニューアシスタント
