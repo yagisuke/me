@@ -40,7 +40,7 @@ export default class HTML extends React.Component {
             sizes="180x180"
           />
           <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
-          <meta name="robots" content="noindex,nofollow,noarchive" />
+          <meta name="robots" content="noindex,noimageindex" />
         </head>
         <body>
           <div
