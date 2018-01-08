@@ -44,9 +44,9 @@ export default class Profile extends Component {
             <div className="row justify-content-md-center">
               <div className="col-lg-8">
                 <p className="text-center">
-                  フロントエンドとバックエンドを隔てなく開発してきました。
-                  最近では、マネジメント業務もおこない、フロントエンドの高品質化に注力しています。
-                  今後はシステム作りの立場に立って、事業作りをしたいと考えています。
+                  バックエンドとフロントエンドを隔てなく開発してきました。
+                  最近では、フロントエンドの高品質化に注力し、マネジメント業務も担当。
+                  今後は開発の立場から、事業の成長に貢献していきたいと考えています。
                 </p>
               </div>
             </div>
@@ -74,11 +74,21 @@ export default class Profile extends Component {
                       />
                     </div>
                     <div className="c-works__skills">
-                      <span class="badge badge-primary text-white">Java</span>
-                      <span class="badge badge-primary text-white">JavaScript</span>
-                      <span class="badge badge-primary text-white">jQuery</span>
-                      <span class="badge badge-primary text-white">HTML</span>
-                      <span class="badge badge-primary text-white">CSS</span>
+                      <span className="badge badge-primary text-white">
+                        Java
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        JavaScript
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        jQuery
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        HTML
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        CSS
+                      </span>
                     </div>
                     <Link
                       to="/regionup/"
@@ -100,10 +110,18 @@ export default class Profile extends Component {
                       />
                     </div>
                     <div className="c-works__skills">
-                      <span class="badge badge-primary text-white">JavaScript</span>
-                      <span class="badge badge-primary text-white">jQuery</span>
-                      <span class="badge badge-primary text-white">HTML</span>
-                      <span class="badge badge-primary text-white">CSS</span>
+                      <span className="badge badge-primary text-white">
+                        JavaScript
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        jQuery
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        HTML
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        CSS
+                      </span>
                     </div>
                     <Link
                       to="/zexy/"
@@ -125,8 +143,12 @@ export default class Profile extends Component {
                       />
                     </div>
                     <div className="c-works__skills">
-                      <span class="badge badge-primary text-white">Java</span>
-                      <span class="badge badge-primary text-white">Oracle</span>
+                      <span className="badge badge-primary text-white">
+                        Java
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        Oracle
+                      </span>
                     </div>
                     <Link
                       to="/hotpepper-beauty/"
@@ -148,8 +170,12 @@ export default class Profile extends Component {
                       />
                     </div>
                     <div className="c-works__skills">
-                      <span class="badge badge-primary text-white">Java</span>
-                      <span class="badge badge-primary text-white">MySQL</span>
+                      <span className="badge badge-primary text-white">
+                        Java
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        MySQL
+                      </span>
                     </div>
                     <Link
                       to="/careertrek/"
@@ -171,10 +197,18 @@ export default class Profile extends Component {
                       />
                     </div>
                     <div className="c-works__skills">
-                      <span class="badge badge-primary text-white">JavaScript</span>
-                      <span class="badge badge-primary text-white">React/Redux</span>
-                      <span class="badge badge-primary text-white">HTML</span>
-                      <span class="badge badge-primary text-white">CSS</span>
+                      <span className="badge badge-primary text-white">
+                        JavaScript
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        React/Redux
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        HTML
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        CSS
+                      </span>
                     </div>
                     <Link
                       to="/jalan-business-support/"
