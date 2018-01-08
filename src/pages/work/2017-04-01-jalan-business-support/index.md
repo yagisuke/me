@@ -22,9 +22,15 @@ categories:
 
 <!--more-->
 
-## さまざまなスキルセットの人が JOIN できて挑戦できる場に
+## さまざまなスキルセットの人が挑戦できる場に
 フロントエンドエンジニア5名のリーダーとして、上記3サービスの要件定義や設計・実装をリード.
 SPAでのシステム構成、CSS-in-JSや自動テストの導入など、クライアントにとっては新しい取り組みをおこなった.
+
+> <b>フロントエンド</b>: JavaScript, React/Redux, jQuery, HTML, CSS, Gulp, EJS, Sass<br />
+> <b>リポジトリ</b>: Git<br />
+> <b>CI</b>: Jenkins<br />
+> <b>コミュニケーション</b>: GitHub, JIRA, Confluence, Slack<br />
+> <b>開発スタイル</b>: ウォーターフォール
 
 ## 共通機能
 
