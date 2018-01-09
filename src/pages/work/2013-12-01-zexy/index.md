@@ -21,7 +21,7 @@ categories:
 
 ## チームの立ち上げ
 外注から内製化するフロントエンドチームの立ち上げにJOIN.
-デザイナー2名・フロントエンド3名の計5名のサブリーダーとして活躍.
+デザイナー2名・フロントエンド3名のサブリーダーとして活躍.
 FTPからGitで資材管理をおこなったり、
 毎回本番のソースをダウンロードするのではなく、
 タスクランナーを入れてテンプレート化してエンハンスしていくなど、
@@ -38,9 +38,29 @@ FTPからGitで資材管理をおこなったり、
 ### PCサイト
 ### SPサイト
 
+<img src="./zexy-toppage-pc.jpg" alt="求職者向けメールのサンプル" />
+
+http://zexy.net/
+
+<img src="./zexy-toppage-sp.jpg" alt="求職者向けメールのサンプル" />
+
+http://zexy.net/
+
 ## 検索導線のデザイン刷新
 ### PCサイト
+
+<img src="./zexy-search-pc.jpg" alt="求職者向けメールのサンプル" />
+
+http://zexy.net/wedding/kanagawa/clientList/
+http://zexy.net/wedding/kanagawa/fairClientList/
+
 ### SPサイト
+
+<img src="./zexy-search-sp.jpg" alt="求職者向けメールのサンプル" />
+
+http://zexy.net/wedding/shutoken/
+http://zexy.net/wedding/kanagawa/clientList/
+http://zexy.net/wedding/kanagawa/fairClientList/
 
 ## 式場画面のデザイン刷新
 ### PCサイト
