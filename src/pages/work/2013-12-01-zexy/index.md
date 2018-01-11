@@ -64,4 +64,9 @@ http://zexy.net/wedding/kanagawa/fairClientList/
 
 ## 式場画面のデザイン刷新
 ### PCサイト
+
+<img src="./zexy-hall-pc.jpg" alt="求職者向けメールのサンプル" />
+
 ### SPサイト
+
+<img src="./zexy-hall-sp.jpg" alt="求職者向けメールのサンプル" />
