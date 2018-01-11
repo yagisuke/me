@@ -67,6 +67,12 @@ http://zexy.net/wedding/kanagawa/fairClientList/
 
 <img src="./zexy-hall-pc.jpg" alt="求職者向けメールのサンプル" />
 
+http://zexy.net/wedding/c_7770027788/
+http://zexy.net/wedding/c_7770027788/plan/
+
 ### SPサイト
 
 <img src="./zexy-hall-sp.jpg" alt="求職者向けメールのサンプル" />
+
+http://zexy.net/wedding/c_7770027788/
+http://zexy.net/wedding/c_7770027788/plan/
