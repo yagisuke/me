@@ -14,6 +14,7 @@ export default class Profile extends Component {
               src={`${pathPrefix}/img/profile.jpg`}
               className="rounded-circle mx-auto d-block u-img-popup"
               width="120"
+              height="120"
             />
             <h1>yagi_suke</h1>
             <p className="lead text-muted text-center">
