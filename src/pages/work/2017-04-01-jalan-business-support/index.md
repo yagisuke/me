@@ -34,6 +34,12 @@ SPAでのシステム構成、CSS-in-JSや自動テストの導入など、ク�
 
 ## 共通機能
 
+<img src="./jlnbs-common.png" alt="求職者向けメールのサンプル" />
+
 ## トリップAIコンシェルジュ
 
+<img src="./jlnbs-ai.png" alt="求職者向けメールのサンプル" />
+
 ## レベニューアシスタント
+
+<img src="./jlnbs-rev.png" alt="求職者向けメールのサンプル" />

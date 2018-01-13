@@ -42,12 +42,11 @@ HTMLのPタグも分からなかったヒヨっ子エンジニアの私が、
 
 ### 求職者向けメッセージの一例
 
-<img src="./rup-candidate-mail.jpg" alt="求職者向けメールのサンプル" />
+<img src="./rup-candidate-mail.jpg" alt="求職者向けメール" />
 
 ### 採用担当者向けメッセージの一例
 
-<img src="./rup-recruiter-mail.jpg" alt="採用担当者向けメールのサンプル" />
-
+<img src="./rup-recruiter-mail.jpg" alt="採用担当者向けメール" />
 
 ## コミュニケーション増加プロジェクト
 求職者と採用担当者間のコミュニケーション増加というKPIの数値を追って、
@@ -60,13 +59,13 @@ HTMLのPタグも分からなかったヒヨっ子エンジニアの私が、
 
 <img src="./rup-resume-flow.jpg" alt="レジュメ編集画面" />
 
-<a href="https://regionup.com/resume/" target="blank">https://regionup.com/resume/</a>
+- レジュメ編集画面(<a href="https://regionup.com/resume/" target="blank">https://regionup.com/resume/</a>)
 
 ### 購入画面
 
 <img src="./rup-purchase-flow.jpg" alt="購入画面" />
 
-<a href="https://regionup.com/purchase/" target="blank">https://regionup.com/purchase/</a>
+- 購入画面(<a href="https://regionup.com/purchase/" target="blank">https://regionup.com/purchase/</a>)
 
 ## 採用担当者向けサービスのデザインリニューアル
 当初、採用担当者向けサービスはtable構成で運用されていた.
@@ -74,8 +73,8 @@ HTMLのPタグも分からなかったヒヨっ子エンジニアの私が、
 およそ20画面のjQueryの設計やHTML・CSSのコーディングを一手に引き受け、
 2ヶ月でリリースをおこなった.一例を以下に掲載.
 
-<img src="./rup-recruiter-renewal.jpg" alt="購入画面" />
+<img src="./rup-recruiter-renewal.jpg" alt="採用担当者向けサービスのリニューアル" />
 
-- 左: 登録画面(<a href="https://recruiters.regionup.com/agent/regist/" target="blank">https://recruiters.regionup.com/agent/regist/</a>)
-- 右上: 問い合わせ画面(<a href="https://recruiters.regionup.com/agent/inquiry/" target="blank">https://recruiters.regionup.com/agent/inquiry/</a>)
-- 右下: メッセージ画面
+- 登録画面(<a href="https://recruiters.regionup.com/agent/regist/" target="blank">https://recruiters.regionup.com/agent/regist/</a>)
+- 問い合わせ画面(<a href="https://recruiters.regionup.com/agent/inquiry/" target="blank">https://recruiters.regionup.com/agent/inquiry/</a>)
+- メッセージ画面

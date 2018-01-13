@@ -31,15 +31,21 @@ description: ""
 
 ### ネイルカタログの新規画面実装
 
-<img src="./hpd-nail-ranking.jpg" alt="求職者向けメールのサンプル" />
+<img src="./hpd-nail-ranking.jpg" alt="ネイルカタログランキング" />
+
+- PCのネイルカタログランキング画面(<a href="https://beauty.hotpepper.jp/nail_catalog/ranking/" target="blank">https://beauty.hotpepper.jp/nail_catalog/ranking/</a>)
+- PCのネイルカタログランキングのメニュー(<a href="https://beauty.hotpepper.jp/nail_catalog/" target="blank">https://beauty.hotpepper.jp/nail_catalog/</a>)
+- SPのネイルカタログランキング画面(<a href="https://beauty.hotpepper.jp/nail_catalog/ranking/" target="blank">https://beauty.hotpepper.jp/nail_catalog/ranking/</a>)
 
 ### サービスリニューアルに伴う検索導線の改修
 
-<img src="./hpd-search.jpg" alt="求職者向けメールのサンプル" />
+<img src="./hpd-search.jpg" alt="検索動線" />
+
+- PCのエリア検索画面(<a href="https://beauty.hotpepper.jp/svcSA/macAF/salon/" target="blank">https://beauty.hotpepper.jp/svcSA/macAF/salon/</a>)
+- SPのエリア検索画面(<a href="https://beauty.hotpepper.jp/svcSA/macAF/salon/" target="blank">https://beauty.hotpepper.jp/svcSA/macAF/salon/</a>)
 
 ### サロンの在庫管理機能の機能拡張
 
-<img src="./hpd-reserve.jpg" alt="求職者向けメールのサンプル" />
+<img src="./hpd-reserve.jpg" alt="在庫管理" />
 
-### その他
-ほげほげ
+- 予約動線スケジュール画面(<a href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000346291" target="blank">https://beauty.hotpepper.jp/CSP/bt/reserve/</a>)

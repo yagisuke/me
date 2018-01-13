@@ -22,11 +22,9 @@ categories:
 ## チームの立ち上げ
 外注から内製化するフロントエンドチームの立ち上げにJOIN.
 デザイナー2名・フロントエンド3名のサブリーダーとして活躍.
-FTPからGitで資材管理をおこなったり、
-毎回本番のソースをダウンロードするのではなく、
-タスクランナーを入れてテンプレート化してエンハンスしていくなど、
+FTPでの資材管理をやめてGit管理にしたり、
+Grunt+LESS+Handlebarsの導入など、
 開発だけでなく、働き方改革の推進もおこなった.
-ここでは、プロジェクトで担当した施策の一例を記載.
 
 > <b>フロントエンド</b>: JavaScript, jQuery, HTML, CSS, Grunt, LESS, Handlebars<br />
 > <b>リポジトリ</b>: Git<br />
@@ -35,44 +33,43 @@ FTPからGitで資材管理をおこなったり、
 > <b>開発スタイル</b>: ウォーターフォール
 
 ## トップ画面のデザイン刷新
-### PCサイト
-### SPサイト
 
-<img src="./zexy-toppage-pc.jpg" alt="求職者向けメールのサンプル" />
+<img src="./zexy-pc-top.jpg" alt="PCのTOP画面" />
 
-http://zexy.net/
+<img src="./zexy-sp-top.jpg" alt="SPのTOP画面" />
 
-<img src="./zexy-toppage-sp.jpg" alt="求職者向けメールのサンプル" />
-
-http://zexy.net/
+- PCのTOP画面(<a href="http://zexy.net/" target="blank">http://zexy.net/</a>)
+- PCのTOP画面のメニュー
+- SPのTOP画面(<a href="http://zexy.net/" target="blank">http://zexy.net/</a>)
+- SPのTOP画面のメニュー
 
 ## 検索導線のデザイン刷新
 ### PCサイト
 
-<img src="./zexy-search-pc.jpg" alt="求職者向けメールのサンプル" />
+<img src="./zexy-pc-search.jpg" alt="PCの検索画面" />
 
-http://zexy.net/wedding/kanagawa/clientList/
-http://zexy.net/wedding/kanagawa/fairClientList/
+- 式場検索画面(<a href="http://zexy.net/wedding/kanagawa/clientList/" target="blank">http://zexy.net/wedding/kanagawa/clientList/</a>)
+- フェア検索画面(<a href="http://zexy.net/wedding/kanagawa/fairClientList/" target="blank">http://zexy.net/wedding/kanagawa/fairClientList/</a>)
 
 ### SPサイト
 
-<img src="./zexy-search-sp.jpg" alt="求職者向けメールのサンプル" />
+<img src="./zexy-sp-search.jpg" alt="SPの検索画面" />
 
-http://zexy.net/wedding/shutoken/
-http://zexy.net/wedding/kanagawa/clientList/
-http://zexy.net/wedding/kanagawa/fairClientList/
+- エリアTOP画面(<a href="http://zexy.net/wedding/shutoken/" target="blank">http://zexy.net/wedding/shutoken/</a>)
+- カレンダーモーダル(<a href="http://zexy.net/wedding/kanagawa/clientList/" target="blank">http://zexy.net/wedding/kanagawa/clientList/</a>)
+- 式場検索画面(<a href="http://zexy.net/wedding/kanagawa/fairClientList/" target="blank">http://zexy.net/wedding/kanagawa/fairClientList/</a>)
 
 ## 式場画面のデザイン刷新
 ### PCサイト
 
-<img src="./zexy-hall-pc.jpg" alt="求職者向けメールのサンプル" />
+<img src="./zexy-pc-hall.jpg" alt="PCの式場画面" />
 
-http://zexy.net/wedding/c_7770027788/
-http://zexy.net/wedding/c_7770027788/plan/
+- 基本情報画面(<a href="http://zexy.net/wedding/c_7770027788/" target="blank">http://zexy.net/wedding/c_7770027788/</a>)
+- 料金・プラン画面(<a href="http://zexy.net/wedding/c_7770027788/plan/" target="blank">http://zexy.net/wedding/c_7770027788/plan/</a>)
 
 ### SPサイト
 
-<img src="./zexy-hall-sp.jpg" alt="求職者向けメールのサンプル" />
+<img src="./zexy-sp-hall.jpg" alt="SPの式場画面" />
 
-http://zexy.net/wedding/c_7770027788/
-http://zexy.net/wedding/c_7770027788/plan/
+- 基本情報画面(<a href="http://zexy.net/wedding/c_7770027788/" target="blank">http://zexy.net/wedding/c_7770027788/</a>)
+- 料金・プラン画面(<a href="http://zexy.net/wedding/c_7770027788/plan/" target="blank">http://zexy.net/wedding/c_7770027788/plan/</a>)
