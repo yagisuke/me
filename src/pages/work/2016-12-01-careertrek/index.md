@@ -29,12 +29,16 @@ description: ""
 > <b>コミュニケーション</b>: GitHub, JIRA, Confluence, ChatWork, Slack<br />
 > <b>開発スタイル</b>: アジャイル
 
-### 通知機能の最適化
+## 通知機能の最適化
 
-### メールマガジン送信処理の業務効率化
+<img src="./ct-follow-job.jpg" alt="お気に入り画面" />
 
-### 求人管理機能の最適化
+- お気に入り求人画面(<a href="https://www.careertrek.com/mypage/follow/" target="blank">https://www.careertrek.com/mypage/follow/</a>)
 
-<img src="./ct-follow-job.jpg" alt="求職者向けメールのサンプル" />
 
-<img src="./ct-sp-gnavi.jpg" alt="求職者向けメールのサンプル" />
+
+### グローバルナビゲーション
+
+<img src="./ct-sp-gnavi.jpg" alt="グローバルナビゲーション" />
+
+- SPのグローバルナビゲーション(<a href="https://www.careertrek.com/mypage/" target="blank">https://www.careertrek.com/mypage/</a>)
