@@ -32,7 +32,13 @@ Grunt+LESS+Handlebarsの導入など、
 > <b>コミュニケーション</b>: GitLab, ChatWork<br />
 > <b>開発スタイル</b>: ウォーターフォール
 
-## トップ画面のデザイン刷新
+## 主要動線の見直しプロジェクト
+予約増加に繋がる主要動線の見直しをおこなった.
+私は「TOP画面」「検索動線」「式場画面」のデザインリニューアルのフロントエンド開発を主に担当した.
+また、バックエンドチームとスケジュールの調整やAPIの設計を行ったり、
+ディレクターやデザイナーとデザインの検討を行うなどプロジェクトを牽引した.
+
+## TOP画面
 
 <img src="./zexy-pc-top.jpg" alt="PCのTOP画面" />
 
@@ -43,33 +49,27 @@ Grunt+LESS+Handlebarsの導入など、
 - SPのTOP画面(<a href="http://zexy.net/" target="blank">http://zexy.net/</a>)
 - SPのTOP画面のメニュー
 
-## 検索導線のデザイン刷新
-### PCサイト
+## 検索導線
 
 <img src="./zexy-pc-search.jpg" alt="PCの検索画面" />
 
-- 式場検索画面(<a href="http://zexy.net/wedding/kanagawa/clientList/" target="blank">http://zexy.net/wedding/kanagawa/clientList/</a>)
-- フェア検索画面(<a href="http://zexy.net/wedding/kanagawa/fairClientList/" target="blank">http://zexy.net/wedding/kanagawa/fairClientList/</a>)
-
-### SPサイト
+- PCの式場検索画面(<a href="http://zexy.net/wedding/kanagawa/clientList/" target="blank">http://zexy.net/wedding/kanagawa/clientList/</a>)
+- PCのフェア検索画面(<a href="http://zexy.net/wedding/kanagawa/fairClientList/" target="blank">http://zexy.net/wedding/kanagawa/fairClientList/</a>)
 
 <img src="./zexy-sp-search.jpg" alt="SPの検索画面" />
 
-- エリアTOP画面(<a href="http://zexy.net/wedding/shutoken/" target="blank">http://zexy.net/wedding/shutoken/</a>)
-- カレンダーモーダル(<a href="http://zexy.net/wedding/kanagawa/clientList/" target="blank">http://zexy.net/wedding/kanagawa/clientList/</a>)
-- 式場検索画面(<a href="http://zexy.net/wedding/kanagawa/fairClientList/" target="blank">http://zexy.net/wedding/kanagawa/fairClientList/</a>)
+- SPのエリアTOP画面(<a href="http://zexy.net/wedding/shutoken/" target="blank">http://zexy.net/wedding/shutoken/</a>)
+- SPのカレンダーモーダル(<a href="http://zexy.net/wedding/kanagawa/clientList/" target="blank">http://zexy.net/wedding/kanagawa/clientList/</a>)
+- SPの式場検索画面(<a href="http://zexy.net/wedding/kanagawa/fairClientList/" target="blank">http://zexy.net/wedding/kanagawa/fairClientList/</a>)
 
 ## 式場画面のデザイン刷新
-### PCサイト
 
 <img src="./zexy-pc-hall.jpg" alt="PCの式場画面" />
 
-- 基本情報画面(<a href="http://zexy.net/wedding/c_7770027788/" target="blank">http://zexy.net/wedding/c_7770027788/</a>)
-- 料金・プラン画面(<a href="http://zexy.net/wedding/c_7770027788/plan/" target="blank">http://zexy.net/wedding/c_7770027788/plan/</a>)
-
-### SPサイト
+- PCの基本情報画面(<a href="http://zexy.net/wedding/c_7770027788/" target="blank">http://zexy.net/wedding/c_7770027788/</a>)
+- PCの料金・プラン画面(<a href="http://zexy.net/wedding/c_7770027788/plan/" target="blank">http://zexy.net/wedding/c_7770027788/plan/</a>)
 
 <img src="./zexy-sp-hall.jpg" alt="SPの式場画面" />
 
-- 基本情報画面(<a href="http://zexy.net/wedding/c_7770027788/" target="blank">http://zexy.net/wedding/c_7770027788/</a>)
-- 料金・プラン画面(<a href="http://zexy.net/wedding/c_7770027788/plan/" target="blank">http://zexy.net/wedding/c_7770027788/plan/</a>)
+- SPの基本情報画面(<a href="http://zexy.net/wedding/c_7770027788/" target="blank">http://zexy.net/wedding/c_7770027788/</a>)
+- SPの料金・プラン画面(<a href="http://zexy.net/wedding/c_7770027788/plan/" target="blank">http://zexy.net/wedding/c_7770027788/plan/</a>)
