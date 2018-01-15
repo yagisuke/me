@@ -14,6 +14,7 @@ export default class Profile extends Component {
               src={`${pathPrefix}/img/profile.jpg`}
               className="rounded-circle mx-auto d-block u-img-popup"
               width="120"
+              height="120"
             />
             <h1>yagi_suke</h1>
             <p className="lead text-muted text-center">
@@ -44,9 +45,9 @@ export default class Profile extends Component {
             <div className="row justify-content-md-center">
               <div className="col-lg-8">
                 <p className="text-center">
-                  フロントエンドとバックエンドを隔てなく開発してきました。
-                  最近では、マネジメント業務もおこない、フロントエンドの高品質化に注力しています。
-                  今後はシステム作りの立場に立って、事業作りをしたいと考えています。
+                  バックエンドとフロントエンドを隔てなく開発してきました。
+                  最近では、フロントエンドの高品質化に注力し、マネジメント業務も担当。
+                  今後は開発の立場から、事業の成長に貢献していきたいと考えています。
                 </p>
               </div>
             </div>
@@ -68,19 +69,30 @@ export default class Profile extends Component {
                   <div className="card-body">
                     <div className="c-works__top">
                       <img
-                        src={`${pathPrefix}/img/profile.jpg`}
+                        src={`${pathPrefix}/img/work/work-1.png`}
                         alt="RegionUP"
                         className="c-works__top__img"
                       />
                     </div>
-                    <p className="c-works__text">
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge...
-                    </p>
+                    <div className="c-works__skills">
+                      <span className="badge badge-primary text-white">
+                        Java
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        JavaScript
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        jQuery
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        HTML
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        CSS
+                      </span>
+                    </div>
                     <Link
-                      to="/jalan-business-support/"
+                      to="/regionup/"
                       className="btn btn-outline-primary btn-block"
                     >
                       もっと見る
@@ -93,67 +105,25 @@ export default class Profile extends Component {
                   <div className="card-body">
                     <div className="c-works__top">
                       <img
-                        src={`${pathPrefix}/img/profile.jpg`}
-                        alt="RegionUP"
+                        src={`${pathPrefix}/img/work/work-2.png`}
+                        alt="ゼクシィ"
                         className="c-works__top__img"
                       />
                     </div>
-                    <p className="c-works__text">
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge...
-                    </p>
-                    <Link
-                      to="/careertrek/"
-                      className="btn btn-outline-primary btn-block"
-                    >
-                      もっと見る
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 c-works__list">
-                <div className="card">
-                  <div className="card-body">
-                    <div className="c-works__top">
-                      <img
-                        src={`${pathPrefix}/img/profile.jpg`}
-                        alt="RegionUP"
-                        className="c-works__top__img"
-                      />
+                    <div className="c-works__skills">
+                      <span className="badge badge-primary text-white">
+                        JavaScript
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        jQuery
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        HTML
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        CSS
+                      </span>
                     </div>
-                    <p className="c-works__text">
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge...
-                    </p>
-                    <Link
-                      to="/hotpepper-beauty/"
-                      className="btn btn-outline-primary btn-block"
-                    >
-                      もっと見る
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 c-works__list">
-                <div className="card">
-                  <div className="card-body">
-                    <div className="c-works__top">
-                      <img
-                        src={`${pathPrefix}/img/profile.jpg`}
-                        alt="RegionUP"
-                        className="c-works__top__img"
-                      />
-                    </div>
-                    <p className="c-works__text">
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge...
-                    </p>
                     <Link
                       to="/zexy/"
                       className="btn btn-outline-primary btn-block"
@@ -168,19 +138,81 @@ export default class Profile extends Component {
                   <div className="card-body">
                     <div className="c-works__top">
                       <img
-                        src={`${pathPrefix}/img/profile.jpg`}
-                        alt="RegionUP"
+                        src={`${pathPrefix}/img/work/work-3.png`}
+                        alt="HOT PEPPER Beauty"
                         className="c-works__top__img"
                       />
                     </div>
-                    <p className="c-works__text">
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge hoge
-                      hoge hoge...
-                    </p>
+                    <div className="c-works__skills">
+                      <span className="badge badge-primary text-white">
+                        Java
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        Oracle
+                      </span>
+                    </div>
                     <Link
-                      to="/regionup/"
+                      to="/hotpepper-beauty/"
+                      className="btn btn-outline-primary btn-block"
+                    >
+                      もっと見る
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6 col-md-4 c-works__list">
+                <div className="card">
+                  <div className="card-body">
+                    <div className="c-works__top">
+                      <img
+                        src={`${pathPrefix}/img/work/work-4.png`}
+                        alt="careertrek"
+                        className="c-works__top__img"
+                      />
+                    </div>
+                    <div className="c-works__skills">
+                      <span className="badge badge-primary text-white">
+                        Java
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        MySQL
+                      </span>
+                    </div>
+                    <Link
+                      to="/careertrek/"
+                      className="btn btn-outline-primary btn-block"
+                    >
+                      もっと見る
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6 col-md-4 c-works__list">
+                <div className="card">
+                  <div className="card-body">
+                    <div className="c-works__top">
+                      <img
+                        src={`${pathPrefix}/img/work/work-5.png`}
+                        alt="じゃらん"
+                        className="c-works__top__img"
+                      />
+                    </div>
+                    <div className="c-works__skills">
+                      <span className="badge badge-primary text-white">
+                        JavaScript
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        React/Redux
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        HTML
+                      </span>
+                      <span className="badge badge-primary text-white">
+                        CSS
+                      </span>
+                    </div>
+                    <Link
+                      to="/jalan-business-support/"
                       className="btn btn-outline-primary btn-block"
                     >
                       もっと見る
@@ -233,10 +265,10 @@ export default class Profile extends Component {
                   className="c-skills__box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="AWS"
+                  title="ORACLE"
                 >
                   <i
-                    className="devicon-amazonwebservices-plain-wordmark c-skills__img"
+                    className="devicon-oracle-original c-skills__img"
                     data-emergence="hidden"
                   />
                 </div>

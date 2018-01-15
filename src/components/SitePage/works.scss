@@ -18,7 +18,11 @@
     }
   }
 
-  .c-works__text {
-    line-height: 1.2;
+  .c-works__skills {
+    margin-bottom: 15px;
+
+    .badge {
+      margin-right: 3px;
+    }
   }
 }
