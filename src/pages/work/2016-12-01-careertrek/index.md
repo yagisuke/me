@@ -40,7 +40,7 @@ Redisの設計やAPIの作成、
 
 <img src="./ct-follow-job.jpg" alt="お気に入り画面" />
 
-- お気に入り求人画面(<a href="https://www.careertrek.com/mypage/follow/" target="blank">https://www.careertrek.com/mypage/follow/</a>)
+- 興味がある求人画面(<a href="https://www.careertrek.com/mypage/follow/" target="blank">https://www.careertrek.com/mypage/follow/</a>)
 
 ### グローバルナビゲーション
 SPサイトのグローバルナビゲーションとサイドナビゲーションの改修をおこなった.
