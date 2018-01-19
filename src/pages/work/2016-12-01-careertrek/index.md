@@ -42,7 +42,7 @@ Redisの設計やAPIの作成、
 
 - 興味がある求人画面(<a href="https://www.careertrek.com/mypage/follow/" target="blank">https://www.careertrek.com/mypage/follow/</a>)
 
-### グローバルナビゲーション
+## グローバルナビゲーション
 SPサイトのグローバルナビゲーションとサイドナビゲーションの改修をおこなった.
 
 <img src="./ct-sp-gnavi.jpg" alt="グローバルナビゲーション" />
