@@ -31,9 +31,9 @@ description: ""
 > <b>コミュニケーション</b>: GitHub, JIRA, Confluence, HipChat, Slack<br />
 > <b>開発スタイル</b>: ウォーターフォール
 
-### プランリニューアルプロジェクト
-開発工数100人月にもおよぶプロジェクトに参加.
-PC・SP・ガラケーサイトの計30画面以上の
+## プランリニューアルプロジェクト
+開発工数150人月にもおよぶプロジェクトに参加.
+PC・SP・ガラケーサイトの計40画面以上の
 「絞り込み機能」「並び順ロジック」「サロンの表示情報」「広告機能」の改修を4名で担当.
 絞り込み条件の引き継ぎ箇所や効果測定のためのログ設計、サロン情報の項目の出し分けや表示画像の並び順など、
 エンジニアも主体となって要件を調整していった.
@@ -43,14 +43,14 @@ PC・SP・ガラケーサイトの計30画面以上の
 - PCのエリア検索画面(<a href="https://beauty.hotpepper.jp/svcSA/macAF/salon/" target="blank">https://beauty.hotpepper.jp/svcSA/macAF/salon/</a>)
 - SPのエリア検索画面(<a href="https://beauty.hotpepper.jp/svcSA/macAF/salon/" target="blank">https://beauty.hotpepper.jp/svcSA/macAF/salon/</a>)
 
-### サロンの在庫管理機能の機能拡張
+## サロンの在庫管理機能の機能拡張
 サロンの予約枠の最大化のため、在庫管理というサービスの根幹でかつ複雑なロジックを担当.
 
 <img src="./hpd-reserve.jpg" alt="在庫管理" />
 
 - 予約動線スケジュール画面(<a href="https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000346291" target="blank">https://beauty.hotpepper.jp/CSP/bt/reserve/</a>)
 
-### ネイルカタログの新規画面実装
+## ネイルカタログの新規画面実装
 ネイルカタログの新規画面の実装を担当.
 メタタグやパンくずの設計などSEOを考慮した設計・開発をおこない、
 本案件後にはモバイルフレンドリーの対応をコンシューマー画面すべてに対応した.

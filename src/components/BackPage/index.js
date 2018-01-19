@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
+import Link from 'gatsby-link'
 
 export default class ReadNext extends Component {
   render() {
     return (
       <div>
         <hr className="border-primary" />
-        <a href="/works/" className="mt-3 btn btn-outline-primary btn-block">
+        <Link to="/works/" className="mt-3 btn btn-outline-primary btn-block">
           一覧へ
-        </a>
+        </Link>
       </div>
     )
   }

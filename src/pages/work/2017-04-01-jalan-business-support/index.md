@@ -37,13 +37,13 @@ SPAでのシステム構成、CSS-in-JSや自動テストの導入など、ク�
 
 <img src="./jlnbs-common.png" alt="共通機能" />
 
-- 引用元: http://kawashimablog.com/yufuin/?p=19579
+- 引用元: <a href="http://kawashimablog.com/yufuin/?p=19579" target="blank">http://kawashimablog.com/yufuin/?p=19579</a>
 
 ## トリップAIコンシェルジュ
 
 <img src="./jlnbs-ai.png" alt="トリップAIコンシェルジュ" />
 
-- 引用元: http://hmd.geo.jp/ota/japan/jalan
+- 引用元: <a href="http://hmd.geo.jp/ota/japan/jalan" target="blank">http://hmd.geo.jp/ota/japan/jalan</a>
 
 ## レベニューアシスタント
 
@@ -51,4 +51,4 @@ SPAでのシステム構成、CSS-in-JSや自動テストの導入など、ク�
 
 <img src="./jlnbs-rev-chart.png" alt="レベニューアシスタントのチャート" />
 
-- 引用元: http://kawashimablog.com/yufuin/?p=19579
+- 引用元: <a href="http://kawashimablog.com/yufuin/?p=19579" target="blank">http://kawashimablog.com/yufuin/?p=19579</a>
