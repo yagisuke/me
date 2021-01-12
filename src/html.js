@@ -42,7 +42,14 @@ export default class HTML extends React.Component {
           <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
           <meta name="robots" content="noindex,noimageindex" />
         </head>
-        {false ? (
+        <body>
+          <div
+            id="___gatsby"
+            dangerouslySetInnerHTML={{ __html: this.props.body }}
+          />
+          {this.props.postBodyComponents}
+        </body>
+        {/* {false ? (
           <body>
             <h1>ただいま停止中</h1>
             <p>
@@ -57,7 +64,7 @@ export default class HTML extends React.Component {
             />
             {this.props.postBodyComponents}
           </body>
-        )}
+        )} */}
       </html>
     )
   }
