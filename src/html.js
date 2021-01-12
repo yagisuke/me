@@ -42,7 +42,7 @@ export default class HTML extends React.Component {
           <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
           <meta name="robots" content="noindex,noimageindex" />
         </head>
-        {true ? (
+        {false ? (
           <body>
             <h1>ただいま停止中</h1>
             <p>
