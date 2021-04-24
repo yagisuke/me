@@ -42,6 +42,7 @@ export default class HTML extends React.Component {
           <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
           <meta name="robots" content="noindex,noimageindex" />
         </head>
+        {/* {false ? (
         <body>
           <div
             id="___gatsby"
@@ -49,22 +50,21 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
-        {/* {false ? (
-          <body>
-            <h1>ただいま停止中</h1>
-            <p>
-              問い合わせは<a href="https://twitter.com/yagi_suke">こちら</a>まで
-            </p>
-          </body>
-        ) : (
-          <body>
-            <div
-              id="___gatsby"
-              dangerouslySetInnerHTML={{ __html: this.props.body }}
-            />
-            {this.props.postBodyComponents}
-          </body>
         )} */}
+        <body>
+          <h1>ただいま停止中</h1>
+          <p>
+            問い合わせは<a href="https://twitter.com/yagi_suke">こちら</a>まで
+          </p>
+        </body>
+        ) : (
+        <body>
+          <div
+            id="___gatsby"
+            dangerouslySetInnerHTML={{ __html: this.props.body }}
+          />
+          {this.props.postBodyComponents}
+        </body>
       </html>
     )
   }
